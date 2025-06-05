@@ -4,10 +4,12 @@ import clsx from "clsx";
 function Navbar() {
     const location = useLocation();
     return (
-        <div className="container py-4 flex justify-between items-center w-11/12 mx-auto sticky top-0">
+        <div className="container py-4 flex justify-between items-center w-11/12 mx-auto">
+
             <img src="https://habitrobotics.com/wp-content/uploads/2025/01/Habit2.png" alt="Habit2.png"
                 width={120}
             />
+
             <div className="space-x-4 sm:block hidden">
                 <Link to={"/"} className={clsx(
                     "font-light text-xl",
@@ -26,9 +28,6 @@ function Navbar() {
             </div>
 
             <LucideMenu className="block sm:hidden" />
-            <div className="">
-
-            </div>
         </div >
     )
 }
