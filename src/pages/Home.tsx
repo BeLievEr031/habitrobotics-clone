@@ -1,7 +1,7 @@
 
 function Home() {
     return (
-        <div>Home</div>
+        <div className="bg-red-600">Home</div>
     )
 }
 
