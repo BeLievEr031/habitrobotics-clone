@@ -17,7 +17,7 @@ function Navbar() {
                         "underline": location.pathname.includes("/")
                     }
                 )}>home</Link>
-                <Link to={"/carrers"}
+                <Link to={"/careers"}
                     className={clsx(
                         "font-light text-xl",
                         {
