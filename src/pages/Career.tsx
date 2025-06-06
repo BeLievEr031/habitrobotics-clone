@@ -5,7 +5,7 @@ function Career() {
     return (
         <div className="relative">
             <img src="https://habitrobotics.com/wp-content/uploads/2025/01/El_Segundo_California_aerial.jpg" alt="El_Segundo_California_aerial.jpg"
-                className="h-[110vh] w-full"
+                className="h-[110vh] w-full object-cover"
             />
 
             <div className="absolute left-8 bottom-12 text-white space-y-6">
