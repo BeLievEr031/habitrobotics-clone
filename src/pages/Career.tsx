@@ -1,9 +1,13 @@
 import { ChevronRight } from "lucide-react"
+import { Helmet } from "react-helmet"
 
 
 function Career() {
     return (
         <div className="relative">
+            <Helmet>
+                <title>Careers - HABIT</title>
+            </Helmet>
             <img src="https://habitrobotics.com/wp-content/uploads/2025/01/El_Segundo_California_aerial.jpg" alt="El_Segundo_California_aerial.jpg"
                 className="h-[110vh] w-full object-cover"
             />

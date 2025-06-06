@@ -1,7 +1,12 @@
+import { Helmet } from "react-helmet";
 
 function PrivacyPolicy() {
     return (
         <div className="w-1/2 mx-auto pt-10 space-y-4">
+            <Helmet>
+                <title>Privacy Policy - HABIT</title>
+            </Helmet>
+
             <h1 className="text-5xl">Privacy Policy</h1>
             <h2 className="text-3xl">Who we are</h2>
             <p className="text-2xl text-neutral-600">Our website address is: https://habitrobotics.com.</p>
