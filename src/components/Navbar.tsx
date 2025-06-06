@@ -1,8 +1,7 @@
 import { LucideMenu } from "lucide-react"
-import { Link, useLocation } from "react-router-dom"
+import { Link } from "react-router-dom"
 import clsx from "clsx";
 function Navbar() {
-    const location = useLocation();
     return (
         <div className="container py-4 flex justify-between items-center w-11/12 mx-auto">
 
@@ -12,17 +11,11 @@ function Navbar() {
 
             <div className="space-x-4 sm:block hidden">
                 <Link to={"/"} className={clsx(
-                    "font-light text-xl",
-                    {
-                        "underline": location.pathname.includes("/")
-                    }
+                    "font-light text-xl"
                 )}>home</Link>
                 <Link to={"/careers"}
                     className={clsx(
-                        "font-light text-xl",
-                        {
-                            "underline": location.pathname.includes("/carrers")
-                        }
+                        "font-light text-xl"
                     )}
                 >carrers</Link>
             </div>
